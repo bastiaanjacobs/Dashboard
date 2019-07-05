@@ -1,0 +1,21 @@
+.oval__component {
+  padding: 2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.1;
+  width: 607px;
+  height: 607px;
+  background: linear-gradient(180deg, #00bcdb8a, #004f57);
+  &-inner {
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+  }
+}

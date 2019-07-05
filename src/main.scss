@@ -1,0 +1,11 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  padding: 1rem;
+  @import "./scss/_reset";
+  @import "./scss/_oval";
+}
